@@ -77,4 +77,6 @@ elif player_input == 3 and computer_input == scissors:
   print("versus")
   print(scissors)
   print("This one is a tie")
+elif player_input > 3 or player_input < 0:
+    print("You didn't pick anything you lose!")
   
